@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/Aspect_of_the_Turtle.unity
+  isLoaded: 1
+  isActive: 1
