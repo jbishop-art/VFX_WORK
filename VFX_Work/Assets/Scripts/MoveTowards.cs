@@ -11,6 +11,7 @@ public class MoveTowards : MonoBehaviour
 
     private Transform myTransform;
 
+    
 
     private void Awake()
     {
@@ -28,6 +29,8 @@ public class MoveTowards : MonoBehaviour
         target = GameObject.Find("TargetSphere_Prefab").transform;
         Projectile = transform;
         
+
+
     }
 
     IEnumerator SimulateProjectile()
@@ -57,6 +60,8 @@ public class MoveTowards : MonoBehaviour
         Quaternion rotation = Quaternion.LookRotation(direction);
         Projectile.rotation = rotation;
 
+        
+
 
         float elapse_time = 0;
 
@@ -71,18 +76,15 @@ public class MoveTowards : MonoBehaviour
 
         }
 
+     
+
+
     }
 
-    //private void Update()
-    //{
-    //    Vector3 direction = target.position - transform.position;
-    //    Quaternion rotation = Quaternion.LookRotation(direction);
-    //    transform.rotation = rotation;
-    //}
+    private void Update()
+    {
 
-
-
-
+    }
 
 
 

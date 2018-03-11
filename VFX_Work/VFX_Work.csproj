@@ -294,6 +294,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\HitTarget.cs" />
     <Compile Include="Assets\Scripts\InstantiateRocket.cs" />
     <Compile Include="Assets\Scripts\MoveTowards.cs" />
     <Compile Include="Assets\Scripts\RotateTowards.cs" />
