@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VFX_Work", "Assembly-CSharp.csproj", "{EFF14F7C-F6E2-051C-9600-063D0FFE53C6}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VFX_Work", "VFX_Work.csproj", "{CAB09B60-6072-A565-3BD2-5C5F56EA721F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EFF14F7C-F6E2-051C-9600-063D0FFE53C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFF14F7C-F6E2-051C-9600-063D0FFE53C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFF14F7C-F6E2-051C-9600-063D0FFE53C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFF14F7C-F6E2-051C-9600-063D0FFE53C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB09B60-6072-A565-3BD2-5C5F56EA721F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB09B60-6072-A565-3BD2-5C5F56EA721F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB09B60-6072-A565-3BD2-5C5F56EA721F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB09B60-6072-A565-3BD2-5C5F56EA721F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
